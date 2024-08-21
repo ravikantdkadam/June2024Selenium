@@ -19,6 +19,8 @@ public class ParellelTest1 {
 		   
 		   driver.get("https://www.facebook.com");
 		   
+		   System.out.println("This is facebook application");
+		   
 		 
 		   
 		   
