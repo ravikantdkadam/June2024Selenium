@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener  class-name="TestNGConcepts.CustomListener1" ></listener>
+</listeners>
+
+
+
+  <test thread-count="5" name="Test">
+  
+    <classes>
+      <class name="TestNGConcepts.GroupingFeature"/>
+      <class name="TestNGConcepts.invocationCount"/>
+      <class name="TestNGConcepts.enabledFeature"/>
+      <class name="TestNGConcepts.SoftassertConcept"/>
+      <class name="TestNGConcepts.TestNGAnnotations"/>
+      <class name="TestNGConcepts.dependsOnMethods"/>
+      <class name="TestNGConcepts.Priorityfeature"/>
+      <class name="TestNGConcepts.timeOutFeature"/>
+      <class name="TestNGConcepts.HardAssertConcept"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

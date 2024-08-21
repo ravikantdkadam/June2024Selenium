@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.663" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Free CRM Test" name="User login with invalid credentials" time="0.023">
+<system-out><![CDATA[
+Given user login Test with invalid credentials..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Test" name="User create Deals Test" time="0.009">
+<system-out><![CDATA[
+Given user create Deals.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Test" name="User create Case Test" time="0.015">
+<system-out><![CDATA[
+Given user create Case......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Test" name="User create Document Test" time="0.016">
+<system-out><![CDATA[
+Given user create Document..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Test" name="User create Companies Test" time="0.006">
+<system-out><![CDATA[
+Given user create Companies.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
